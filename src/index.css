@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+/* Add this in index.css or a global CSS file */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #b83eff; /* Neon Purple */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition:
+    transform 0.05s ease-out,
+    opacity 0.2s ease-in-out;
+  box-shadow: 0 0 8px #b83eff, 0 0 16px #b83eff;
+  backdrop-filter: blur(4px);
+  opacity: 1;
+}
+
