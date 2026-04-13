@@ -25,7 +25,7 @@ const Projects = () => {
       'A modern personal portfolio built in React with Tailwind CSS, showcasing dedicated pages for Home, About, Skills, Projects, and Contact, delivering a smooth and immersive browsing experience with animations and responsive design.',
     tech: ['React', 'Tailwind CSS', 'JavaScript'],
     github: 'https://github.com/Yogesh-Ydv/Yogesh-Portfolio',
-    live: ''
+    live: 'https://yogesh-portfolio-nine-beta.vercel.app/'
   },
   {
     title: 'Todo List React App',
